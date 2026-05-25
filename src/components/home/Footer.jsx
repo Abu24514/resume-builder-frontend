@@ -1,3 +1,4 @@
+import logo from "../../assets/scriptfolio-logo.svg"
 const Footer = () => {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 py-12 px-4 sm:px-6 lg:px-8 mt-20">
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <img
                 className="h-10 w-auto"
-                src="src/assets/scriptfolio-logo.svg"
+                src={logo}
                 alt="Scriptfolio logo"
               />
               <span className="text-xl font-semibold text-gray-900 hover:text-indigo-600 transition-colors">
